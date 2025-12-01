@@ -21,3 +21,11 @@ cover:
 My goal with these posts is to appeal to a broad audience's curiousities about transit and how it impacts our cities. My selfish desire is to understand things better by writing about them.
 
 ---
+
+##### Here's a random dashboard I found for testing
+
+<iframe
+    src="/dashboard/unemployment_rate.html"
+    title="US unemployment rate"
+    style="width: 100%; aspect-ratio: 4 / 3; border: none;">
+</iframe>
