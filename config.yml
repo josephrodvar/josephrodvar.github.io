@@ -12,24 +12,27 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
+        - name: Posts
+          url: posts/
+          weight: 1
         - name: Data
           url: data/
           weight: 4 
+        - name: Papers
+          url: papers/
+          weight: 2
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
         # - name: Blog
         #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
         #   weight: 6
 
 params:
-    description: "This website hosts Joseph Rodriguez's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Joseph Rodriguez's data, papers, and posts on transit data"
     author: Joseph Rodriguez
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -44,7 +47,8 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    # MainSections: ["books","courses","papers","data"]
+    MainSections: ["posts","data",  "papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -60,18 +64,20 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
             - name: Data
               url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
+            - name: Posts
+              url: posts/
+            - name: Papers
+              url: papers/
             - name: Tags
               url: tags/
-            - name: Archive
-              url: archive/
+            # - name: Books
+            #   url: books/
+            # - name: Courses
+            #   url: courses/
+            # - name: Archive
+            #   url: archive/
             # - name: Blog
             #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
@@ -80,12 +86,12 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:joseph.rodriguez.v@gmail.com
-        # - name: Zoom
-        #   url: https://www.zoom.us/my/igelfeld
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=pfrkREAAAAAJ
         - name: GitHub
           url: https://github.com/josephrodvar
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
         # - name: Substack
         #   url: https://pmichaillat.substack.com
         # - name: YouTube
