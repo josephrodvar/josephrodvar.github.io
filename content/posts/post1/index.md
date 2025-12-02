@@ -25,7 +25,7 @@ My goal with these posts is to appeal to a broad audience's curiousities about t
 ##### Here's a random dashboard I found for testing
 
 <iframe
-    src="/dashboard/unemployment_rate.html"
-    title="US unemployment rate"
+    src="/dashboard/seattle_frequent_routes.html"
+    title="Frequent Routes: King County Metro"
     style="width: 100%; aspect-ratio: 4 / 3; border: none;">
 </iframe>
