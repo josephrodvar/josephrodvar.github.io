@@ -22,10 +22,10 @@ My goal with these posts is to appeal to a broad audience's curiousities about t
 
 ---
 
-##### Here's a random dashboard I found for testing
+##### Here's a random map I made for testing
 
 <iframe
-    src="/dashboard/seattle_frequent_routes.html"
+    src="/maps/seattle_frequent_routes.html"
     title="Frequent Routes: King County Metro"
     style="width: 100%; aspect-ratio: 4 / 3; border: none;">
 </iframe>

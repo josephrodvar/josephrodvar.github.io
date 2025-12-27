@@ -12,3 +12,8 @@ This repository contains the source code and content for Joseph Rodriguez's webs
 - Posts
 - Data
 - Papers
+
+## How to Run
+
+Use command 
+`hugo server`
