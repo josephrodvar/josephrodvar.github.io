@@ -21,20 +21,10 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        # - name: Books
-        #   url: books/
-        #   weight: 5 
-        # - name: Courses
-        #   url: courses/
-        #   weight: 3
-        # - name: Blog
-        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-        #   weight: 6
 
 params:
     description: "This website hosts Joseph Rodriguez's data, papers, and posts on transit data"
     author: Joseph Rodriguez
-    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -47,7 +37,6 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    # MainSections: ["books","courses","papers","data"]
     MainSections: ["posts","data",  "papers"]
     ShowToc: false
     disableScrollToTop: true
@@ -59,27 +48,19 @@ params:
     profileMode:
           enabled: true
           title: Joseph Rodriguez
-          subtitle: "I'm a transit data enthusiast!"
+          subtitle: "Mining data for stories about transit and cities."
           imageUrl: "profile.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Data
-              url: data/
             - name: Posts
               url: posts/
+            - name: Data
+              url: data/
             - name: Papers
               url: papers/
             - name: Tags
               url: tags/
-            # - name: Books
-            #   url: books/
-            # - name: Courses
-            #   url: courses/
-            # - name: Archive
-            #   url: archive/
-            # - name: Blog
-            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
@@ -90,14 +71,6 @@ params:
           url: https://scholar.google.com/citations?user=pfrkREAAAAAJ
         - name: GitHub
           url: https://github.com/josephrodvar
-        # - name: Zoom
-        #   url: https://www.zoom.us/my/igelfeld
-        # - name: Substack
-        #   url: https://pmichaillat.substack.com
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
-        # - name: Bluesky
-        #   url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true

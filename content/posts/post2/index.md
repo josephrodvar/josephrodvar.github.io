@@ -4,7 +4,7 @@ date: 2025-12-25
 tags: ["transit","housing","data viz"]
 author: ["Joseph"]
 description: "I used to live next to friends..." 
-summary: "I used to live next to friends. Then I moved next an empty pool."
+summary: "I used to live next to friends. Then I moved next to an empty pool."
 cover:
     image: "sambo.jpg"
     alt: "Samborondon"
@@ -30,7 +30,7 @@ This is a story to be expanded on as my thoughts come in, but I have long needed
 
 ---
 
-_Note: Another freaking website? What's this about? My goal with these posts is to appeal to a broad audience's curiousities about transit and how it impacts our cities. My selfish desire is to understand things better by writing about them._
+_Note: "Another website? Why?" Provide an ad-less, digestible space for learning about transit and our cities._
 
 ---
 
